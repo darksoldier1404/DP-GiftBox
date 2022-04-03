@@ -1,0 +1,10 @@
+name: DP-GiftBox
+version: 1.0.0.0
+main: com.darksoldier1404.dgb.GiftBox
+api-version: 1.18
+authors: [ DEAD_POOLIO_ ]
+depend:
+  - DPP-Core
+commands:
+  선물박스:
+    aliases: [dgb]
