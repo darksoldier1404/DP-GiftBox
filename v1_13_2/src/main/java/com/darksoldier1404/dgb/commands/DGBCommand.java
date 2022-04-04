@@ -124,7 +124,7 @@ public class DGBCommand implements CommandExecutor, TabCompleter {
     public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
         if (sender.isOp()) {
             if (args.length == 1) {
-                return Arrays.asList("생성", "보상", "쿠폰", "쿠폰발급", "cmd", "드랍", "삭제", "reload", "목록");
+                return Arrays.asList("생성", "보상", "쿠폰", "쿠폰발급", "cmd", "삭제", "reload", "목록");
             }
             if (args.length == 2) {
                 if (plugin.config.get("GiftBoxs") != null) {
